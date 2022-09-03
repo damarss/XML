@@ -27,7 +27,8 @@ async function loadNews() {
     console.log(news[i]);
     source = news[i].querySelector("image").querySelector("url").textContent;
     // document.write(`<img src='${source}' width='50' />`);
-    document.getElementById(`news-${i+1}`).innerHTML = `<img src='${source}' width='50' />`;
+    document.getElementById(`news-${i+1}`).innerHTML = `<img src='${source}' width='50' />` + 
+    `<p>${news[i].querySelector("title").innerHTML}</p>`;
   }
 
 }

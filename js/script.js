@@ -8,9 +8,13 @@ async function getNews(url) {
 }
 
 async function getGempa(url) {
-  return fetch(url).then((response) => {
-    return response.json();
-  });
+  return fetch(url)
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      return data.Infogempa.gempa;
+    });
 }
 
 async function loadNews() {
@@ -46,6 +50,14 @@ async function loadNews() {
         .querySelector("enclosure")
         .getAttribute("url");
       let link = itemBerita[j].querySelector("link").innerHTML;
+      let date = itemBerita[j].querySelector("pubDate").innerHTML;
+      date = new Date(date);
+      let formattedDate = date.toLocaleDateString("id-ID", {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      });
 
       title = title.replace(/<!\[CDATA\[/g, "").replace(/\]\]>/g, "");
       description = description
@@ -73,6 +85,10 @@ async function loadNews() {
         .getElementById(`rss-${i + 1}`)
         .querySelector(".news-item")
         .querySelectorAll("a")[j].target = "_blank";
+      document
+        .getElementById(`rss-${i + 1}`)
+        .querySelector(".news-item")
+        .querySelectorAll("small")[j].innerHTML = formattedDate;
     }
   }
 }
@@ -80,5 +96,19 @@ async function loadNews() {
 async function loadGempa() {
   const url = "https://data.bmkg.go.id/DataMKG/TEWS/autogempa.json";
   const gempa = await getGempa(url);
-  console.log(gempa);
+  let imgSource = "https://data.bmkg.go.id/DataMKG/TEWS/" + gempa.Shakemap;
+  const atribut = document
+    .getElementById("gempa")
+    .querySelectorAll(".list-group-item");
+
+  document.getElementById("gempa").querySelector("img").src = imgSource;
+  document.getElementById("gempa").querySelector(".card-text").innerText =
+    gempa.Wilayah;
+  atribut[0].innerHTML = `<i class="bi bi-geo-alt-fill"></i> ${gempa.Dirasakan}`;
+  atribut[1].innerHTML = `<i class="bi bi-bullseye"></i> ${gempa.Potensi}`;
+  atribut[2].innerHTML = `<i class="bi bi-arrow-down-circle-fill"></i> Kedalaman ${gempa.Kedalaman}`;
+  atribut[3].innerHTML = `<i class="bi bi-calendar-event-fill"></i> ${gempa.Tanggal}`;
+  atribut[4].innerHTML = `<i class="bi bi-clock-fill"></i> ${gempa.Jam}`;
+  atribut[5].innerHTML = `<i class="bi bi-compass-fill"></i> ${gempa.Coordinates}`;
+  atribut[6].innerHTML = `<i class="bi bi-map-fill"></i> ${gempa.Lintang} & ${gempa.Bujur}`;
 }

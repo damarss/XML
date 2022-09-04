@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Tugas JSON</title>
+  </head>
+
+  <body onload="loadGempa();">
+    <nav class="navbar navbar-expand-lg bg-light mb-3 py-3">
+      <div class="container-fluid">
+        <a class="navbar-brand text-uppercase fw-bold" href="/">Tugas PPK</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">1. Tugas XML - RSS Berita</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >2. Tugas JSON - Gempa Terkini</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="gempa" class="gempa mt-4 mb-5">
+      <div class="container px-md-5">
+        <div class="card mx-md-5">
+          <img src="..." class="card-img-top" alt="Shakemap gempa terkini" style="width: 100%; height: auto;"/>
+          <div class="card-body">
+            <h5 class="card-title alert alert-danger text-center">
+              Info Gempa Terkini
+            </h5>
+            <p class="card-text fw-bold fs-3 text-center"></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+          </ul>
+          <small class="text-end fw-bold p-2 fs-6">Sumber: BMKG</small>
+        </div>
+      </div>
+    </section>
+    
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

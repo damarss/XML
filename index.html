@@ -1,41 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>Tugas XML dan JSON</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <title>Document</title>
-</head>
-
-<body>
-  <section id="news" class="news">
-    <div class="container">
-      <div class="row">
-        <h1 class="text-center fw-bold">News</h1>
-      </div>
-      <div class="row">
-        <div class="col-md-4" id="news-1">
-          
+  <body onload="loadNews();">
+    <section id="news" class="news">
+      <h1 class="text-center fw-bold mb-3 text-uppercase">News</h1>
+      <div class="container bg-light p-3 rounded mb-4" id="rss-1">
+        <div class="card mb-3 mx-auto" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                id="banner-1"
+                src="..."
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4" id="news-2"></div>
-        <div class="col-md-4" id="news-3"></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="gempa" class="gempa">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-
+        <div class="row news-item">
+          <div class="col-lg-4">
+            <div class="card mx-auto mb-3" style="width: 18rem">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mx-auto mb-3" style="width: 18rem">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mx-auto mb-3" style="width: 18rem">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+      <div class="container bg-light p-3 rounded mb-4" id="rss-2">
+        <div class="card mb-3 mx-auto" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                id="banner-2"
+                src="..."
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row news-item">
+          <div class="col-lg-4">
+            <div class="card mx-auto mb-3" style="width: 18rem">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mx-auto mb-3" style="width: 18rem">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mx-auto mb-3" style="width: 18rem">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container bg-light p-3 rounded mb-4" id="rss-3">
+        <div class="card mb-3 mx-auto" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                id="banner-3"
+                src="..."
+                class="img-fluid rounded-start h-100"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row news-item">
+          <div class="col-lg-4">
+            <div class="card mx-auto mb-3" style="width: 18rem">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mx-auto mb-3" style="width: 18rem">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mx-auto mb-3" style="width: 18rem">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <script src="js/script.js"></script>
-</body>
+    <section id="gempa" class="gempa">
+      <div class="container">
+        <div class="row">
+          <div class="col"></div>
+        </div>
+      </div>
+    </section>
 
+    <script src="js/script.js"></script>
+  </body>
 </html>

@@ -10,7 +10,7 @@
 
   <body onload="loadNews();">
     <nav class="navbar navbar-expand-lg bg-light mb-3 py-3">
-      <div class="container-fluid">
+      <div class="container position-relative">
         <a class="navbar-brand text-uppercase fw-bold" href="/">Tugas PPK</a>
         <button
           class="navbar-toggler"
@@ -24,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav w-100 d-flex">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/"
                 >1. Tugas XML - RSS Berita</a
@@ -33,6 +33,19 @@
             <li class="nav-item">
               <a class="nav-link" href="/gempa.html"
                 >2. Tugas JSON - Gempa Terkini</a
+              >
+            </li>
+            <li class="nav-item lh-1 position-absolute" style="right: 0">
+              <a
+                class="nav-link"
+                href="https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc"
+                target="_blank"
+                ><img
+                  src="https://lh3.googleusercontent.com/MUxpHBm6Fg_X5OQGXkYZh8tFZ9lf7-2Pd0LTF9GLbNXhSxUySdVygnzEEyAljINEqvP0phWdrtF0cTQJo7EIlhN9aA=w128-h128-e365-rj-sc0x00ffffff"
+                  alt="Moesif CORS"
+                  width="25"
+                />
+                Moesif CORS</a
               >
             </li>
           </ul>

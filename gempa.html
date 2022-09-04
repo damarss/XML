@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
     <title>Tugas JSON</title>
   </head>
 
   <body onload="loadGempa();">
     <nav class="navbar navbar-expand-lg bg-light mb-3 py-3">
-      <div class="container-fluid">
+      <div class="container position-relative">
         <a class="navbar-brand text-uppercase fw-bold" href="/">Tugas PPK</a>
         <button
           class="navbar-toggler"
@@ -34,6 +37,19 @@
                 >2. Tugas JSON - Gempa Terkini</a
               >
             </li>
+            <li class="nav-item lh-1 position-absolute" style="right: 0;">
+              <a
+                class="nav-link"
+                href="https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc"
+                target="_blank"
+                ><img
+                  src="https://lh3.googleusercontent.com/MUxpHBm6Fg_X5OQGXkYZh8tFZ9lf7-2Pd0LTF9GLbNXhSxUySdVygnzEEyAljINEqvP0phWdrtF0cTQJo7EIlhN9aA=w128-h128-e365-rj-sc0x00ffffff"
+                  alt="Moesif CORS"
+                  width="25"
+                />
+                Moesif CORS</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -42,7 +58,12 @@
     <section id="gempa" class="gempa mt-4 mb-5">
       <div class="container px-md-5">
         <div class="card mx-md-5">
-          <img src="..." class="card-img-top" alt="Shakemap gempa terkini" style="width: 100%; height: auto;"/>
+          <img
+            src="..."
+            class="card-img-top"
+            alt="Shakemap gempa terkini"
+            style="width: 100%; height: auto"
+          />
           <div class="card-body">
             <h5 class="card-title alert alert-danger text-center">
               Info Gempa Terkini
@@ -62,7 +83,7 @@
         </div>
       </div>
     </section>
-    
+
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
   </body>

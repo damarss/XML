@@ -1,14 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-10-03T05:11:04.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="2NK3W7kG11XKndIHCsg3" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-03T05:21:59.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="e5cRUMu65vAkybuwjwDj" version="20.4.0" type="github">
   <diagram id="pLPMzB_FQ0jomP-fBI41" name="Page-1">
     <mxGraphModel dx="1421" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZlEkeOueZy00jaCgnQG3-1" value="Data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="130" width="90" height="50" as="geometry" />
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-1" value="Data" style="rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="310" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZlEkeOueZy00jaCgnQG3-2" value="Sistem Informasi" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="315" y="210" width="120" height="70" as="geometry" />
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-2" value="Sistem Informasi" style="rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlEkeOueZy00jaCgnQG3-1" target="ZlEkeOueZy00jaCgnQG3-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="320" as="sourcePoint" />
+            <mxPoint x="235" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-7" value="Ancaman Kebocoran Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZlEkeOueZy00jaCgnQG3-2" target="ZlEkeOueZy00jaCgnQG3-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="410" as="sourcePoint" />
+            <mxPoint x="370" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,29 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2022-10-03T05:21:59.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="e5cRUMu65vAkybuwjwDj" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-03T05:29:37.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="60ETQY2YqxT30TxqgrpA" version="20.4.0" type="github">
   <diagram id="pLPMzB_FQ0jomP-fBI41" name="Page-1">
     <mxGraphModel dx="1421" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZlEkeOueZy00jaCgnQG3-1" value="Data" style="rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="122.5" y="310" width="75" height="30" as="geometry" />
+          <mxGeometry x="127.5" y="170" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZlEkeOueZy00jaCgnQG3-2" value="Sistem Informasi" style="rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="220" width="120" height="50" as="geometry" />
+          <mxGeometry x="110" y="230" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZlEkeOueZy00jaCgnQG3-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlEkeOueZy00jaCgnQG3-1" target="ZlEkeOueZy00jaCgnQG3-2">
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlEkeOueZy00jaCgnQG3-1" target="ZlEkeOueZy00jaCgnQG3-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="320" as="sourcePoint" />
             <mxPoint x="235" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlEkeOueZy00jaCgnQG3-7" value="Ancaman Kebocoran Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="215" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZlEkeOueZy00jaCgnQG3-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZlEkeOueZy00jaCgnQG3-2" target="ZlEkeOueZy00jaCgnQG3-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="410" as="sourcePoint" />
             <mxPoint x="370" y="360" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-12" value="Menimbulkan berbagai upaya" style="rectangle;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlEkeOueZy00jaCgnQG3-7" target="ZlEkeOueZy00jaCgnQG3-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="400" as="sourcePoint" />
+            <mxPoint x="370" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-14" value="Pencegahan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-15" value="Mitigasi Risiko" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlEkeOueZy00jaCgnQG3-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="250" as="sourcePoint" />
+            <mxPoint x="460" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZlEkeOueZy00jaCgnQG3-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="300" as="sourcePoint" />
+            <mxPoint x="370" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZlEkeOueZy00jaCgnQG3-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="300" as="sourcePoint" />
+            <mxPoint x="460" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZlEkeOueZy00jaCgnQG3-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="370" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZlEkeOueZy00jaCgnQG3-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="410" as="sourcePoint" />
+            <mxPoint x="410" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="410" as="sourcePoint" />
+            <mxPoint x="400" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ZlEkeOueZy00jaCgnQG3-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="410" as="sourcePoint" />
+            <mxPoint x="460" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlEkeOueZy00jaCgnQG3-29" value="Sistem Informasi yang Aman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="450" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
